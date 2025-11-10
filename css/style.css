@@ -18,6 +18,12 @@ Basic palete
       border-color: #ffffff; 
     }
 
+    .carousel-img{
+        object-fit: cover
+    }
+
+    
+
 /* || Typography */
 
 
