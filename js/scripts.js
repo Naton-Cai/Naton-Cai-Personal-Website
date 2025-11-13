@@ -38,3 +38,20 @@ document.getElementById('theme-toggle').addEventListener('click', function() {
     //save preference to localStorage
     localStorage.setItem('theme', newTheme); 
 });
+
+//toggles the text and icon for each collapsing text button
+[...document.getElementsByClassName('infoCollapse')].forEach(function(element){
+    element.addEventListener('click', function(){
+        if (element && element.getAttribute('aria-expanded') === 'true') {
+            element.getElementsByClassName('collapse-bt-text')[0].innerText= 'Show Less'
+            element.children[1].classList.add("bi-chevron-up");
+            element.children[1].classList.remove("bi-chevron-down");
+        }
+        else{
+        element.getElementsByClassName('collapse-bt-text')[0].innerText= 'Show More';
+        element.children[1].classList.add("bi-chevron-down");
+        element.children[1].classList.remove("bi-chevron-up");
+        }
+    });
+
+});

@@ -99,14 +99,15 @@
             </div>
 
             <a
-              class="btn btn-primary"
+              class="btn btn-primary infoCollapse"
               data-bs-toggle="collapse"
               href="#collapseTrimet"
               role="button"
               aria-expanded="false"
               aria-controls="collapseTrimet"
             >
-              Show More
+              <span class="collapse-bt-text">Show More</span>
+              <i class="bi bi-chevron-down align-bottom"></i>
             </a>
           </div>
           <div class="collapse mt-3" id="collapseTrimet">
@@ -118,16 +119,34 @@
               a visualization tool utilizing Google Maps to view past Trimet Bus
               traffic activity, including density and frequency.
             </p>
-            <img
-              src="assets/images/trimet_1.png"
-              alt="visualization of trimet data 1"
-              class="img-fluid mt-3"
-            />
-            <img
-              src="assets/images/trimet_2.png"
-              alt="visualization of trimet data 2"
-              class="img-fluid mt-3"
-            />
+            <a
+              class="text-body icon-link d-flex justify-content-end"
+              title="Trimet Pipeline Github Repository"
+              href="https://github.com/Naton-Cai/Data-Pipeline-Project"
+              aria-label="Trimet Pipeline Github Repository Link"
+            >
+              <p class="fs-5">
+                <i class="bi bi-box-arrow-up-right"></i>
+                Find out more
+              </p>
+            </a>
+            <figure>
+              <img
+                src="assets/images/trimet_1.png"
+                alt="visualization of trimet data 1"
+                class="img-fluid mt-3"
+              />
+              <img
+                src="assets/images/trimet_2.png"
+                alt="visualization of trimet data 2"
+                class="img-fluid mt-3"
+              />
+              <figcaption>
+                <i
+                  >Example Page of visualizations of queries to the database.</i
+                >
+              </figcaption>
+            </figure>
           </div>
         </div>
 
@@ -141,39 +160,122 @@
                 alt="Cracked Logo"
                 class="project-icon rounded-circle me-3"
               />
-              <h2 class="mb-0">Cracked Game Jam Project</h2>
+
+              <h2 class="mb-0">Cracked Game</h2>
             </div>
 
             <a
-              class="btn btn-primary"
+              class="btn btn-primary infoCollapse"
               data-bs-toggle="collapse"
               href="#collapseCracked"
               role="button"
               aria-expanded="false"
               aria-controls="collapseCracked"
             >
-              Show More
+              <span class="collapse-bt-text">Show More</span>
+              <i class="bi bi-chevron-down align-bottom"></i>
             </a>
           </div>
           <div class="collapse mt-3" id="collapseCracked">
             <p class="fs-5">
-              Developed a robust data pipeline for Trimet's bus traffic data,
-              the public transit agency in Portland, Oregon, utilizing Python
-              and Google Cloud to automate data ingestion, transformation, and
-              loading positonal data into a SQL database. Data was then used for
-              a visualization tool utilizing Google Maps to view past Trimet Bus
-              traffic activity, including density and frequency.
+              Cracked was developed as game prototype. Made in godot, the game
+              involves two apposing players that take the role of vases that
+              must grab and throw each other against the walls in order to break
+              eachother and collect the gems within.
             </p>
-            <img
-              src="assets/images/trimet_1.png"
-              alt="visualization of trimet data 1"
-              class="img-fluid mt-3"
-            />
-            <img
-              src="assets/images/trimet_2.png"
-              alt="visualization of trimet data 2"
-              class="img-fluid mt-3"
-            />
+            <a
+              class="text-body icon-link d-flex justify-content-end"
+              title="Cracked Github Repository"
+              href="https://github.com/Naton-Cai/Cracked"
+              aria-label="Cracked Github Repository Link"
+            >
+              <p class="fs-5">
+                <i class="bi bi-box-arrow-up-right"></i>
+                Find out more
+              </p>
+            </a>
+            <figure>
+              <img
+                src="assets/images/cracked_1.png"
+                alt="Cracked Gameplay"
+                class="img-fluid mt-3"
+              />
+              <figcaption><i>Example Screenshot of Gameplay</i></figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <hr />
+
+        <div>
+          <div class="d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+              <img
+                src="assets/images/combat_manager_logo.png"
+                alt="Combat Maanger Logo"
+                class="project-icon rounded-circle me-3"
+              />
+
+              <h2 class="mb-0">Nethys Web Scrapper</h2>
+            </div>
+
+            <a
+              class="btn btn-primary infoCollapse"
+              data-bs-toggle="collapse"
+              href="#collapseNethys"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseNethys"
+            >
+              <span class="collapse-bt-text">Show More</span>
+              <i class="bi bi-chevron-down align-bottom"></i>
+            </a>
+          </div>
+          <div class="collapse mt-3" id="collapseNethys">
+            <p class="fs-5">
+              Written in JavaScript and using Node.JS, I developed this webstite
+              scrapper to scrape creature data from the website
+              <a
+                href="https://2e.aonprd.com"
+                title="Archive of Nethys 2E Repository"
+                aria-label="Archive of Nethys 2E Link"
+                >Archives of Nethys</a
+              >, an online repository for the tabletop RPG game Pathfinder. This
+              data is then outputed into a .CMX file used by the software
+              <a
+                href="http://combatmanager.com"
+                title="Combat Manager Repository"
+                aria-label="Combat Maanager Link"
+                >Combat Manager</a
+              >, which was developed to make running combat in Pathfinder
+              easier. <br /><br />
+              Originally, Combat Manager was developed for the 1st edition of
+              Pathfinder. When the new edition arrived, Combat Manager did not
+              release an edition in response. So instead of losing the
+              feature-rich functionality of Combat Manager, I wrote this script
+              to make importing 2nd edition monsters much easier.
+            </p>
+            <a
+              class="text-body icon-link d-flex justify-content-end"
+              title="Archive Scrapper Github Repository"
+              href="https://github.com/Naton-Cai/Archive-Scrapper"
+              aria-label="Archive Scrapper Github Repository Link"
+            >
+              <p class="fs-5">
+                <i class="bi bi-box-arrow-up-right"></i>
+                Find out more
+              </p>
+            </a>
+            <figure>
+              <img
+                src="assets/images/nethys.png"
+                alt="Nethys' page for a Skeleton Horse"
+                class="img-fluid mt-3"
+              />
+              <figcaption>
+                <i>Example Page of a Monster in Nethys.</i>
+              </figcaption>
+            </figure>
           </div>
         </div>
       </div>
