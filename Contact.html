@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home - Naton Cai</title>
+    <title>Previous Work - Naton Cai</title>
     <script defer src="js/scripts.js"></script>
     <link rel="stylesheet" href="css/main.min.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -79,63 +79,38 @@
       </div>
     </nav>
 
-    <main class="h-100">
-      <div class="container-fluid">
-        <div class="row">
-          <div
-            class="col-12 col-lg-4 order-2 order-lg-1 d-flex flex-column justify-content-center text-center"
-          >
-            <img
-              src="assets/images/profile.png"
-              alt="Profile Picture"
-              class="col-6 img-fluid rounded-circle mx-auto mt-4 shadow"
+    <main>
+      <div class="container">
+        <h1 class="my-4">Contact Me</h1>
+        <form>
+          <div class="mb-3">
+            <label for="FirstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="FirstName" required />
+          </div>
+          <div class="mb-3">
+            <label for="LastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="LastName" required />
+          </div>
+          <div class="mb-3">
+            <label for="Email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="Email" required />
+          </div>
+          <div class="mb-3">
+            <label for="Phone" class="form-label">Phone Number</label>
+            <input
+              type="tel"
+              class="form-control"
+              id="Phone"
+              aria-describedby="phoneHelp"
             />
-            <h1 class="text-body mt-3">Naton Cai</h1>
-            <p class="text-body">
-              Software Developer / Graduate Computer Science Student at Portland
-              State University
-            </p>
+            <div id="phoneHelp" class="form-text">Not Required</div>
           </div>
-
-          <div class="col-12 col-lg-8 p-0 order-1 order-lg-2 bg-dark">
-            <div
-              id="carouselImages"
-              class="carousel slide h-100"
-              data-bs-ride="carousel"
-            >
-              <div class="carousel-inner h-100">
-                <div class="carousel-item active h-100">
-                  <img
-                    src="assets/images/carousel1.jpg"
-                    class="d-block w-100 h-100 carousel-img"
-                    alt="Slide 1"
-                  />
-                </div>
-                <div class="carousel-item h-100">
-                  <img
-                    src="assets/images/carousel2.jpg"
-                    class="d-block w-100 h-100 carousel-img"
-                    alt="Slide 2"
-                  />
-                </div>
-                <div class="carousel-item h-100">
-                  <img
-                    src="assets/images/carousel3.jpg"
-                    class="d-block w-100 h-100 carousel-img"
-                    alt="Slide 3"
-                  />
-                </div>
-                <div class="carousel-item h-100">
-                  <img
-                    src="assets/images/carousel4.jpg"
-                    class="d-block w-100 h-100 carousel-img"
-                    alt="Slide 4"
-                  />
-                </div>
-              </div>
-            </div>
+          <div class="mb-3">
+            <label for="TextArea" class="form-label">Message</label>
+            <textarea class="form-control" id="TextArea" rows="6"></textarea>
           </div>
-        </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
       </div>
     </main>
     <script
