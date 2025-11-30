@@ -4,7 +4,7 @@ This is the repo for my personal website.
 
 ## Video Presentation
 
-<video src="https://github.com/Naton-Cai/Naton-Cai-Personal-Website/blob/main/Video_Presentation.mp4" width="300"></video>
+<video src="https://raw.githubusercontent.com/Naton-Cai/Naton-Cai-Personal-Website/refs/heads/main/Video_Presentation.mp4" control width="300"></video>
 
 ## Deployment
 
