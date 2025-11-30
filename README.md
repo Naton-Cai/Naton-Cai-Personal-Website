@@ -2,6 +2,10 @@
 
 This is the repo for my personal website.
 
+## Video Presentation
+
+<video src="https://github.com/Naton-Cai/Naton-Cai-Personal-Website/blob/main/Video_Presentation.mp4" width="300" />
+
 ## Deployment
 
 The project can be ran locally but a Github Pages deployment can be found here.
